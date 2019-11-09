@@ -8,3 +8,23 @@ model.py => training file
 Algorithm => GradientBoostingRegressor
 Root Mean Square error => 55745.56
 
+
+==========second attempt========
+
+New additions:
+
+	Did feature scalling
+
+	Removed rows that have ouliers in the target variable 
+
+	Change the model
+
+
+------RESULT----
+
+Model = > ExtraTreesRegressor
+
+Root Mean Square error => 34878.80
+
+Note : Please try using sklearn.ensemble.HistGradientBoostingRegressor; i am not being able to update my scikit-learn for some reason. 
+
